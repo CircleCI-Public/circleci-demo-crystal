@@ -11,6 +11,10 @@ jobs:
       - run:
           name: Install dependencies.
           command: shards install
+      - save_cache:
+          key: dependency-cache-{{ checksum "shard.lock" }}
+          paths:
+            - ./lib
       - run:
           name: test
           command: crystal spec
