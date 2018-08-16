@@ -1,4 +1,4 @@
-require "../demo_app"
+require "./models"
 
 # Some dummy controllers by class
 module Controllers
