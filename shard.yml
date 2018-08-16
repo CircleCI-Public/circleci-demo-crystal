@@ -1,0 +1,13 @@
+name: demo_app
+version: 0.1.0
+
+authors:
+  - teesloane <tylersloane@gmail.com>
+
+targets:
+  demo_app:
+    main: src/demo_app.cr
+
+crystal: 0.25.1
+
+license: MIT
