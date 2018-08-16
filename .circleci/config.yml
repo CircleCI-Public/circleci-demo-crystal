@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/demo_app
     docker: 
       - image: crystallang/crystal:0.26.0
     steps: 
