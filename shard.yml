@@ -8,6 +8,10 @@ targets:
   demo_app:
     main: src/demo_app.cr
 
-crystal: 0.25.1
+crystal: 0.26.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
 
 license: MIT
