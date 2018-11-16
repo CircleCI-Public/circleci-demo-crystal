@@ -4,8 +4,8 @@
 
 **Requirements**
 
-- Crystal 0.26
-- Kemal 0.24
+- Crystal 0.27
+- Kemal 0.25
 
 
 ``` sh
